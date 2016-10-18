@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ScoreKeeper Lite</string>
+    <string name="menu_addPlayers">Add Players</string>
+    <string name="menu_delPlayers">Delete Player</string>
+    <string name="menu_delPlayersTitleDialog">The players will be removed:</string>
+    <string name="menu_settingPlay">Settings</string>
+    <string name="menu_clearScore">Reset scoore for ALL</string>
+    <string name="menu_delete_LastRound">Delete last round</string>
+    <string name="menu_dropAll">Delete ALL</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_about">Developer</string>
+    <string name="main_bt_newPart">Add round</string>
+    <string name="main_tvHead_name">PLAYERS</string>
+    <string name="main_tvHead_Score">ROUNDS</string>
+    <string name="main_tvHead_total">TOTAL</string>
+    <string name="main_tvHead_total_desc">LEFT</string>
+    <string name="main_delRound_Title">Delete last Round?</string>
+    <string name="main_delRound_Message">You will enter the data again.</string>
+    <string name="main_clear_Title">Delete score for ALL players?</string>
+    <string name="main_clear_Message">You will start game again.</string>
+    <string name="main_dropAll_Title">Delete ALL Data of game?</string>
+    <string name="main_dropAll_Message">Nothing will be left. You will start all over again.</string>
+    <string name="addPlayer_tv_name">Name of new player</string>
+    <string name="addPlayer_tv_Score">Score</string>
+    <string name="addPlayer_tv_countRnd">Rounds have been played:</string>
+    <string name="addPlayer_tv_maxScore">Leader - %1$s (%2$s)</string>
+    <string name="addPlayer_tv_minScore">Lagging - %1$s (%2$s)</string>
+    <string name="addPlayer_tv_addScore4New">Add score for new player?</string>
+    <string name="addPlayer_tv_reversGame">The game is revers order</string>
+    <string name="addManyPls_tv_player">Player %1$s</string>
+    <string name="addManyPls_edHint_name">Name</string>
+    <string name="settings_firstValue">First Value</string>
+    <string name="setting_reversInf">Count is revers order</string>
+    <string name="setting_maxScore">Announce the winner</string>
+    <string name="settings_tvMaxScore">Report on reaching</string>
+    <string name="errADPleersTitle">Not a player</string>
+    <string name="errADPleersMessage">Add players please!</string>
+    <string name="errAddPlayerTitle">Player name not found</string>
+    <string name="errAddPlayerMessage">Add name</string>
+    <string name="errOkButton">Ok, I am understand</string>
+    <string name="errRoundTitle">Round not found!</string>
+    <string name="errARoundMessage">Round results should be added</string>
+    <string name="errWinsPrizMessageOne">Congratulations the winner of a game and issue him prize!!!</string>
+    <string name="errWinsPrizMessageMany">Congratulations winners of a game and issue them prize!!!</string>
+    <string name="errCommercialWatch">The video is not loaded. Please try again later.</string>
+    <string name="errWinsPlayerOne">The winner is<![CDATA[ ]]></string>
+    <string name="errWinsPlayerMany">The winners are<![CDATA[ ]]></string>
+    <string name="MNFAddRound">Round</string>
+    <string name="MNFAddPlayer">Add player</string>
+    <string name="MNFAddManyPlayers">Add players</string>
+    <string name="MNFDeletePlayers">Delete players</string>
+    <string name="MNFSettingApp">Settings</string>
+    <string name="MNFabout">Developer</string>
+    <string name="txtOk">Apply</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="about_thanks_txt">Thank you for using this app </string>
+    <string name="about_email_txt">You can write to developer:</string>
+    <string name="email">64bitIN@gmail.com</string>
+    <string name="about_stars_txt">Rate application:</string>
+    <string name="about_help_project_txt">You can watch commercial video to support the project</string>
+    <string name="setting_negativNum">Enter negative numbers</string>
+
+
+
+    <string name="endOf_OV">s</string>
+    <string name="endOf_A"><![CDATA[]]></string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3897077884606623/6035959397</string>
+
+</resources>

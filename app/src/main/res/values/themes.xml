@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Наследуем тему -->
+    <style name="MyActionBarTheme" parent="@style/Theme.AppCompat.DayNight">
+        <!-- Подключаем свой стиль к теме -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- ВАЖНО!!!windowActionBarOverlay - атрибут ТЕМЫ, не ActionBar. ПОзволяет растянуть экран под ActionBar -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryUpHead</item>
+        <!-- Меняем цвет звездочек в RaitingBar -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <!-- Переопределяем стиль для темы ActionBar-->
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- Переобределяем текстовые настройки -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+<!--
+     <style name="MyOverflowButtonStyle">
+         <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+     </style>
+-->
+</resources>
